@@ -7,7 +7,7 @@ exiv2 for android and support xmp function.
 
 2. copy buildExiv2.sh and configure from "../modify file" to "../exiv2-trunk".
 
-3. copy configure.ac from "../modify file" to "../exiv2-trunk/config"
+3. copy configure.ac from "../modify file" to "../exiv2-trunk/config" configure from "../modify file" to "../exiv2-trunk/"
 	modify all the "lpthread" to "pthread", because android does not support lpthread.
 
 4. copy actions.cpp from "../modify file" to "../exiv2-trunk/src"
